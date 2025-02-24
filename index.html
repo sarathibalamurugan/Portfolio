@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>parthasarathi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        .content {
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Parthasarathi B</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#" onclick="changeContent('home')">Home</a></div>
+                <!-- Removed the About button -->
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#" onclick="changeContent('skills')">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#" onclick="changeContent('experience')">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="450"><a href="#" onclick="changeContent('projects')">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#" onclick="changeContent('certifications')">Certifications</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#" onclick="changeContent('contact')">Contact me</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#" onclick="changeContent('home')">Home</a>
+                <!-- Removed the About button -->
+                <a href="#" onclick="changeContent('skills')">Skills</a>
+                <a href="#" onclick="changeContent('experience')">Experience</a>
+                <a href="#" onclick="changeContent('projects')">Projects</a>
+                <a href="#" onclick="changeContent('certifications')">Certifications</a>
+                <a href="#" onclick="changeContent('contact')">Contact me</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="content-section">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img src="./main.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Parthasarathi</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Enthusiastic and dedicated student with a strong passion for artificial intelligence (AI) 
+                    technologies. Proficient in Python and Java, with hands-on experience in machine learning and data analysis. Adept at
+                    problem-solving and eager to apply theoretical knowledge to real-world applications. Committed to leveraging AI to develop
+                    innovative solutions and contribute to impactful projects. Seeking opportunities to collaborate on cutting-edge technologies
+                    and gain practical experience in the field of AI.
+                    </p>
+                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="https://github.com/sarathibalamurugan" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <!-- Removed the Facebook button -->
+                    <a href="https://www.linkedin.com/in/parthasarathi-b-212630269/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- Removed the X (Twitter) button -->
+                    <a href="https://leetcode.com/u/sarathi4/" target="_blank"><i class="fa-solid fa-code"></i></a> <!-- Updated LeetCode button to look like others -->
+                </div>
+                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <button onclick="window.open('resumefinal.pdf', '_blank')">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
