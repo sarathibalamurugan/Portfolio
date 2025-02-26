@@ -183,6 +183,10 @@ and gain practical experience in the field of AI.
                             <img src="certs/awscloudfoudations.jpg" alt="AWS Cloud Foundations" onclick="toggleFullscreen(this)">
                         </div>
                         <div class="certificate">
+                            <h2>Python Developer</h2>
+                            <img src="certs/promptengineer.png" alt="JavaScript (SoloLearn)" onclick="toggleFullscreen(this)">
+                        </div>
+                        <div class="certificate">
                             <h2>Data Structures and Algorithms</h2>
                             <img src="certs/dsa.jpg" alt="Data Structures and Algorithms" onclick="toggleFullscreen(this)">
                         </div>
@@ -198,6 +202,7 @@ and gain practical experience in the field of AI.
                             <h2>Prompt Engineer(DeepLearnig.AI)</h2>
                             <img src="certs/promptengineer.png" alt="JavaScript (SoloLearn)" onclick="toggleFullscreen(this)">
                         </div>
+                        
                         <!-- Add more certificates as needed -->
                     </div>
                 </div>
