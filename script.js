@@ -184,7 +184,7 @@ and gain practical experience in the field of AI.
                         </div>
                         <div class="certificate">
                             <h2>Python Developer</h2>
-                            <img src="certs/python_developer.png" alt="JavaScript (SoloLearn)" onclick="toggleFullscreen(this)">
+                            <img src="certs/python_developer.jpg" alt="JavaScript (SoloLearn)" onclick="toggleFullscreen(this)">
                         </div>
                         <div class="certificate">
                             <h2>Data Structures and Algorithms</h2>
