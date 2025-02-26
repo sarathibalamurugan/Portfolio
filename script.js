@@ -183,6 +183,10 @@ and gain practical experience in the field of AI.
                             <img src="certs/awscloudfoudations.jpg" alt="AWS Cloud Foundations" onclick="toggleFullscreen(this)">
                         </div>
                         <div class="certificate">
+                            <h2>Python developer</h2>
+                            <img src="certs/python_developer.jpg" alt="AWS Cloud Foundations" onclick="toggleFullscreen(this)">
+                        </div>
+                        <div class="certificate">
                             <h2>Data Structures and Algorithms</h2>
                             <img src="certs/dsa.jpg" alt="Data Structures and Algorithms" onclick="toggleFullscreen(this)">
                         </div>
