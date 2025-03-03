@@ -144,6 +144,13 @@ and gain practical experience in the field of AI.
                             <li>Key Technologies: Selenium, BeautifulSoup, LangChain, Ollama LLM, Python, Chrome WebDriver</li>
                         </ul>
                     </div>
+                    <!-- Add certificate image below experience section -->
+                <div id="certificate" >
+                    <!-- ...existing experience content... -->
+                    <div class="certificate" >
+                        <img src="certs/yzone_page-0001.jpg" alt="Certificate">
+                    </div>
+                </div>
                 </div>
             `;
             break;
